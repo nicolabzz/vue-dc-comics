@@ -18,13 +18,22 @@
 <script>
 export default {
   name: 'MainPage',
+  components: {
+  },
+  data() {
+    return {
+      arrHeros: [
+        // qui andra' l'array delle cards heros contenenti le informazioni (quwsto l'ho supposto io)
+      ],
+    };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 @import '../variables.scss';
 .backgroud-dark {
-  background-color: #1c1c1c;
+  background-color: $text-color;
 }
 
 .content-goes-here {
@@ -41,7 +50,7 @@ h1 {
 }
 
 .cards-bar {
-  background-color: #0282f9;
+  background-color: $brand-color;
   display: flex;
   align-items: center;
   justify-content: space-evenly;

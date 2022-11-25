@@ -41,9 +41,14 @@ export default {
 a {
   text-decoration: none;
   margin: 2rem .8rem;
-  border-bottom: 2px solid black;
   text-transform: uppercase;
   font-weight: bold;
+  color: $brand-color;
+}
+
+a:nth-child(2) {
+  padding-bottom: 3.3rem;
+  border-bottom: 6px solid $brand-color;
 }
 
 </style>

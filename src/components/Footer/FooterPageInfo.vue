@@ -108,6 +108,10 @@ footer {
   }
 }
 
+li {
+  color: dimgray;
+}
+
 .bigLogo {
   // border: 2px solid fuchsia;
   flex: 1 1 80px;
