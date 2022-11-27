@@ -5,7 +5,6 @@
       <MainPage />
       <FooterPageInfo />
       <FooterPageSocial />
-      <CardsHeros />
     </div>
   </div>
 </template>
@@ -15,7 +14,8 @@ import HeaderPage from '@/components/HeaderPage.vue';
 import MainPage from '@/components/MainPage.vue';
 import FooterPageInfo from '@/components/Footer/FooterPageInfo.vue';
 import FooterPageSocial from '@/components/Footer/FooterPageSocial.vue';
-import CardsHeros from '@/components/CardsHeros.vue';
+
+document.title = 'DC COMICS';
 
 export default {
   components: {
@@ -23,7 +23,6 @@ export default {
     MainPage,
     FooterPageInfo,
     FooterPageSocial,
-    CardsHeros,
   },
 };
 </script>
